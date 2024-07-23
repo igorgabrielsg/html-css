@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style type="text/css">
+        /* pseudoclasse são palavra que definem estados de elementos em HTML*/
+
+        /* SELETORES PERSONALIZ CADOS
+            #   = id
+            .   = class
+            :   = pseldo-class
+            ::  = pseldo-element
+            >   = clildren (filho)
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            /* retira o sublinhado do link */
+            font-weight: bold;
+        }
+
+        a:visited {
+            /* :visited se um link foi visitado */
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active
+
+        /* apos o clicar com o mouse*/
+            {
+            color: yellow;
+        }
+
+        a::before
+
+        /* antes do elemento */
+            {
+            content: "☛ ";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        a::after
+
+        /* depos do elemento */
+            {
+            content: " ☚";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalisando links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo">Canal do YouTube</a target="_blank"></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+
+</body>
+
+</html>
