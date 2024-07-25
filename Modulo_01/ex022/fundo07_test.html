@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <style type="text/css">
+        section {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .container {
+            background-color: lightgreen;
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+            margin: 10px;
+            border-radius: 10px;
+            
+            position: relative;
+        }
+        
+        .conteudo {
+            background-color: brown;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 100px;
+            width: 100px;
+
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+
+        #cont1 {}
+
+        #cont2 {}
+
+        #cont3 {}
+
+        #con1 {}
+
+        #con2 {}
+
+        #con3 {}
+
+        #con1:hover {
+            width: 150px;
+            height: 150px;
+            background-color: darkcyan;
+            box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.600);
+            border-radius: 50%;
+            transition: all 0.5s ease-in-out; 
+        }
+
+        #con2:hover {
+            width: 150px;
+            height: 150px;
+            background-color: darkcyan;
+            box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.600);
+            border-radius: 50%;
+            transition: all 0.5s ease-in-out; 
+        }
+
+        #con3:hover {
+            width: 150px;
+            height: 150px;
+            background-color: darkcyan;
+            box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.600);
+            border-radius: 50%;
+            transition: all 0.5s ease-in-out; 
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+
+        <div class="container" id="cont1">
+            <div class="conteudo" id="con1"></div>
+
+        </div>
+        <div class="container" id="cont2">
+            <div class="conteudo" id="con2"></div>
+
+        </div>
+        <div class="container" id="cont3">
+            <div class="conteudo" id="con3"></div>
+
+        </div>
+    </section>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium saepe provident adipisci totam eius
+        excepturi, ab autem, amet ea, unde delectus necessitatibus fugiat cumque et. Ipsum tempore fuga expedita
+        perferendis.</p>
+
+
+</body>
+
+</html>
