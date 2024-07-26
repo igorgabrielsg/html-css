@@ -38,20 +38,17 @@ header p a {
 
 section {
     font-family: var(--fonte3);
-
     margin-left: 20px;
     line-height: 4vw;
     font-size: 2vw;
+    padding-left: 20px;
 }
 
-section p {
-    margin: 15px;
-}
 
 .artimg {
     color: white;
     padding: 90px 0 90px 10px;
-    margin: 0 0 0 -20px;
+    margin: 0 0 0 -40px;
 }
 
 .artimg p {
