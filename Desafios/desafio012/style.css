@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* retira a */
 * {
     margin: 0;
     padding: 0;
@@ -12,8 +13,8 @@
 }
 
 body {
-    font-family: var(--fonte2);
     background-color: white;
+    font-style: italic;
 
 }
 
@@ -25,13 +26,22 @@ header {
     padding: 50px;
 }
 
+header h1 {
+    font-family: var(--fonte1);
+    font-variant: small-caps;
+}
+
 header p a {
     font-weight: bold;
     color: white;
 }
 
 section {
+    font-family: var(--fonte3);
+
     margin-left: 20px;
+    line-height: 4vw;
+    font-size: 2vw;
 }
 
 section p {
@@ -40,17 +50,18 @@ section p {
 
 .artimg {
     color: white;
-    padding: 50px;
+    padding: 90px 0 90px 10px;
+    margin: 0 0 0 -20px;
 }
 
 .artimg p {
     background-color: rgba(0, 0, 0, 0.500);
     padding: 15px;
-    width: 200px;
+    width: 26vw;
 }
 
 article {
-    margin: 50px 0;
+    margin: 90px 0;
 }
 
 #art2 {
@@ -58,11 +69,38 @@ article {
     background-size: cover;
 }
 
+#art3 p {
+    margin-bottom: 50px;
+}
+
 #art4 {
     background: black url("imagens/background002.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
+#art5 p {
+    margin-bottom: 50px;
+}
+
 footer {
+    background-color: black;
+    text-align: center;
+    font-family: var(--fonte1);
+    font-style: normal;
+}
+
+footer p {
+    color: white;
+    padding: 10px 20px;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p a:hover {
+    text-decoration: underline;
 
 }
