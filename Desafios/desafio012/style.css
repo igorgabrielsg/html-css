@@ -12,10 +12,9 @@
     --fonte3: 'Sriracha', cursive;
 }
 
-body {
+html, body {
     background-color: white;
-    font-style: italic;
-
+    min-height: 100vh;
 }
 
 header {
@@ -31,10 +30,10 @@ header h1 {
     font-variant: small-caps;
 }
 
-header p a {
+header a, footer a {
+    text-decoration: none;
     font-weight: bold;
     color: white;
-    text-decoration: none;
 }
 
 header p a:hover {
@@ -43,41 +42,45 @@ header p a:hover {
 
 main {
     font-family: var(--fonte3);
-    margin-left: 20px;
-    line-height: 2em;
+}
+
+section {
     font-size: 2vw;
-    padding-left: 20px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    margin-left: 40px;
+    line-height: 2em;
 }
 
-.artimg {
+section.imagem {
+    margin-left: 0px;
+}
+
+.imagem {
     color: white;
-    padding: 90px 0;
-    margin: 0 0 0 -40px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
-.artimg p {
+.imagem p {
     background-color: rgba(0, 0, 0, 0.500);
     padding: 15px;
     width: 26vw;
     margin-left: 25px;
 }
 
-section {
-    margin: 90px 0;
-}
-
-#art2 {
+#imagem1 {
     background: black url("imagens/background001.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
-.art p {
-    margin-bottom: 50px;
-}
-
-#art4 {
+#imagem2 {
     background: black url("imagens/background002.jpg") center center no-repeat fixed;
     background-size: cover;
+}
+
+.txt p {
+    margin-bottom: 50px;
 }
 
 footer {
@@ -90,12 +93,6 @@ footer {
 footer p {
     color: white;
     padding: 10px 20px;
-}
-
-footer p a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 footer p a:hover {
