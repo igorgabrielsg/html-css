@@ -6,18 +6,30 @@
     <title>Document</title>
 
     <style type="text/css">
-        h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            font-size: 4em;
+        body {
+            height: 98vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        .box {
+            background-color: lightsalmon;
+            margin-top: 100px;
+            height: 100px;
+            width: 100px;
 
-            background-image: linear-gradient(to right, blue, red);
-            background-clip: text;
-            color: transparent;
+            border: 3px solid black;
+            
+            border-radius: 10% 50% 10% 50% / 50%  50% 50%  10%;
+
+
         }
     </style>
 </head>
 <body>
-    <h1>Testando Degrade em Textos</h1>
+    <div class="box">
+
+    </div>
 </body>
 </html>
